@@ -27,8 +27,8 @@
 //     return imc;
 // }
 // 
-// console.log(imc (83, 1.87));
-
+// console.log(imc (72, 1.7));
+//
 
 
 
@@ -48,8 +48,11 @@
 //     }
 // }
 // 
-
-
-addEventListener('click', function() {
-     console.log ('Clicou, otário') 
-});
+//  
+// 
+// 
+// function clicou() {
+//     console.log("clicou, tititiiti");
+// }
+// 
+// addEventListener('click', clicou);
