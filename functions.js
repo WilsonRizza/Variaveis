@@ -56,3 +56,35 @@
 // }
 // 
 // addEventListener('click', clicou);
+
+// function imc2 (peso, altura) {
+//     const imc = peso / (altura ** 2);
+//     console.log(imc)
+// }
+// 
+// imc2(80, 1.87);
+
+// function terceiraIdade(idade) {
+//     if (idade < 60 ) {
+//         return 'Você é jovem'
+//     } else if (idade => 60) {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// } 
+// console.log(terceiraIdade(60));
+// 
+// 
+
+// function imc (peso, altura) {
+//     imc = peso / (altura ** 2);
+//     return imc
+// }
+// 
+// console.log(imc(83, 1.87))
+
+function terceiraIdade (idade) {
+    console.log(idade);
+}
+terceiraIdade = 60;
