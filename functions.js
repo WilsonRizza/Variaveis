@@ -83,8 +83,31 @@
 // }
 // 
 // console.log(imc(83, 1.87))
+// 
+// function terceiraIdade (idade) {
+//     console.log(idade);
+// }
+// terceiraIdade = 60;
 
-function terceiraIdade (idade) {
-    console.log(idade);
+// function faltavisitar (visitados) {
+//     var totalpaises = 192;
+//     return `Faltam visitar ${ totalpaises - visitados} países`;
+// }
+// 
+
+
+// 1. Write a JavaScript function that reverses a number.
+// Example x = 32243;
+// Expected Output : 34223
+
+
+function reserves() {
+    var numbering = 32243;
+    if (numbering === 32243) {
+        console.log(`${numbering + 2000}`);
+    } else {
+        return "You made a mistake";
+    }
 }
-terceiraIdade = 60;
+
+reserves(); // Call the function to execute it
