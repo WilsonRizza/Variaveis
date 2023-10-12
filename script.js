@@ -15,20 +15,37 @@
 // ela deve possuir os parâmetros: nome e sobrenome
 
     function nomeCompleto (nome, sobrenome) {
-
-        console.log(nome + sobrenome);
+        return nome + ' ' + sobrenome;
     }
 
  
 // Crie uma função que verifica se um número é par
+ 
+    function isEven (number) {
+        var modulo = number % 2;
+        if (modulo === 0 ) {
+            return 'É par!'
+        } else {
+            return 'deu errado'
+        }
+    }
 
 // Crie uma função que retorne o tipo de
 // dado do argumento passado nela (typeof)
+
+    function tipo (dado) {
+        return typeof dado
+    }
 
 // addEventListener é uma função nativa do JavaScript
 // o primeiro parâmetro é o evento que ocorre e o segundo o Callback
 // utilize essa função para mostrar no console o seu nome completo
 // quando o evento 'scroll' ocorrer.
+
+    addEventListener ('scroll', function () {
+        console.log('will')
+    })
+
 
 // Corrija o erro abaixo
 // function precisoVisitar(paisesVisitados) {
