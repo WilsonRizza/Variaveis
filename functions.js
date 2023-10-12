@@ -101,13 +101,34 @@
 // Expected Output : 34223
 
 
-function reserves() {
-    var numbering = 32243;
-    if (numbering === 32243) {
-        console.log(`${numbering + 2000}`);
-    } else {
-        return "You made a mistake";
-    }
-}
+// function reserves() {
+//     var numbering = 32243;
+//     if (numbering === 32243) {
+//         console.log(`${numbering + 2000}`);
+//     } else {
+//         return "You made a mistake";
+//     }
+// }
+// 
+// reserves(); // Call the function to execute it
 
-reserves(); // Call the function to execute it
+
+
+
+
+// 1. Write a JavaScript function that reverses a name.
+// Example x = will ;
+// Expected Output : will
+
+function callname() {
+    var callname = "Will Rizza";
+    console.log(callname);
+}
+callname();
+
+ function imc (peso, altura) {
+    imc = peso / (altura ** 2);
+    console.log (imc);
+
+ }
+imc (80, 1.87);
