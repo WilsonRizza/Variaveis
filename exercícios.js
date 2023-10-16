@@ -214,7 +214,7 @@ for (i=0; i<cores.length; i++) {
 // Crie um programa que receba uma string e conte quantas letras assim (a, b, c, d, e, f, g, h) ela contém.
 
 function contarLetras (texto) {
-    var letras = ["a, h"];
+    var letras = ["a", "b", "c", "d", "e", "f", "g", "h"];
     var soma = 0; 
     
 
@@ -227,7 +227,9 @@ function contarLetras (texto) {
     return soma;
 }
 var texto = "Você é pra mim Você é pra mim O nascer do sol Em uma manhã de verão A chuva, o cheiro, o beijo Em qualquer estação Você é pra mim A minha segunda metade Pra mim você é Sinônimo de felicidade";
+
 var totalLetras = contarLetras(texto);
+
 console.log("O texto possui " + totalLetras + " letras específicas.");
  
 
@@ -235,17 +237,33 @@ console.log("O texto possui " + totalLetras + " letras específicas.");
 
 // 
 // Exercício 6:
-// Crie um programa que receba um número e verifique se ele é primo.
-// 
-// Exercício 7:
-// Crie uma função que inverta uma string. Por exemplo, "hello" deve se tornar "olleh".
-// 
-// Exercício 8:
-// Crie um programa que gere os primeiros N números da sequência de Fibonacci, onde N é um número fornecido pelo usuário.
-// 
-// Exercício 9:
-// Crie uma função que receba uma matriz de palavras e retorne a palavra mais longa.
-// 
-// Exercício 10:
-// Crie um programa que simule um jogo de adivinhação. O programa escolhe um número aleatório entre 1 e 100, e o jogador tenta adivinhar o número. O programa deve fornecer dicas se o palpite for muito alto ou muito baixo.
-// 
+// Crie um programa que utilize operadores ternários
+
+var idade = 27;
+var naoPossuiDiabetes = true;
+
+var podebeber = (idade >= 18 && naoPossuiDiabetes) ? "pode beber" : "Não pode beber";
+
+console.log(podebeber);
+
+
+
+ 
+// Some 500 ao valor de scroll abaixo,
+// atribuindo o novo valor a scroll
+var scroll = 1000;
+var scroll2 = 500;
+
+var valorFinal = (scroll += scroll2);
+console.log(valorFinal);
+
+
+// Atribua true para a variável darCredito,
+// caso o cliente possua carro e casa.
+// E false caso o contrário.
+var possuiCarro = true;
+var possuiCasa = true;
+var darCredito = 0;
+
+var darCredito = (possuiCarro && possuiCasa) ? 'Você possui crédito' : "Não possui credito";
+console.log(darCredito);
