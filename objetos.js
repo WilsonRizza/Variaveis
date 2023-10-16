@@ -45,11 +45,11 @@ labradoodle = {
     }
 }
 
-
-for (var numero = 1 ; numero < 10; numero++) {
-    console.log(numero)
-}
-
+// 
+// for (var numero = 1 ; numero < 10; numero++) {
+//     console.log(numero)
+// }
+// 
 
 var i =2;
 while (i<10) {
@@ -58,3 +58,28 @@ while (i<10) {
 }
 
 
+var videogames= [ 'PS4', 'XBOX360', 'PS5', 'XBOXONE'];
+
+for (var item = 0; item < videogames.length; item++) {
+    console.log(videogames[item])
+    if (videogames[item] === 'PS5') {
+        break
+    }
+}
+
+var frutas = ['banana', 'uva', 'pera', 'abacate', 'abacaxi'];
+
+
+frutas.forEach(function () {
+    frutas.reverse();
+    console.log(frutas)
+});
+
+
+var numero = 0;
+var maximo = 10;
+
+for (;numero < maximo;) {
+    console.log(numero) 
+    numero++;
+}
